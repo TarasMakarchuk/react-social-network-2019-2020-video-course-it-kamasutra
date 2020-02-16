@@ -1,0 +1,13 @@
+.descriptionBlock{
+    padding: 10px;
+}
+
+.contact{
+    padding-left: 20px;
+}
+
+.avatar{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}

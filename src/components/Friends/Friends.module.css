@@ -1,0 +1,24 @@
+.Friends {
+    color: #fff;
+    font-size: 34px;
+}
+
+.items {
+    color: #fff;
+    font-size: 12px;
+}
+
+.Friends .items{
+    display: flex;
+}
+
+.Friends img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px auto;
+}
+
+.Friends .items p{
+    text-align: center;
+}

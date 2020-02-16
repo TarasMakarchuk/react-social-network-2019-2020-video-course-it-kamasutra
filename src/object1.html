@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    let a = {
+        name: 'it-camasutra.com',
+        protocol: 'https',
+        maxStudentCount: 10,
+        isOnline: true,
+        students: ['Ivan', 'Andrey', 'Farid'],
+        classroom: {
+            teacher: {
+                name: 'wew',
+                age: 18
+            }
+        }
+    };
+
+    let b = {...a};
+    b.students = [...a.students];
+    b.classroom = {...a.classroom};
+    b.classroom.teacher = {...a.classroom.teacher};
+    console.log(a);
+    console.log(b);
+    b.name = '*************';
+    b.students[0] = 'PETYA';
+    b.classroom.teacher.name = 'TEACHER';
+    console.log(a);
+    console.log(b);
+
+    console.log(a === b);
+
+
+</script>
+
+</body>
+</html>
